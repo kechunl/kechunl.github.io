@@ -14,7 +14,7 @@ I received B.Eng. in [Electronic Engineering from Tsinghua University](https://w
 
 Driven by the potential of computational methods to aid healthcare, my research interests are in the area of medical image analysis, computer vision, and machine learning.
 
-Here is my [CV](https://github.com/kechunl/kechunl.github.io/blob/master/files/Kechun_Liu_CV.pdf).
+Here is my [CV](files/Kechun_Liu_CV.pdf).
 
 Publications
 ======
