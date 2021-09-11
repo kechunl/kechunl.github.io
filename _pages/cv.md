@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
+You can find my [CV](https://github.com/kechunl/kechunl.github.io/files/Kechun_Liu_CV.pdf) here.
 
 Education
 ======
