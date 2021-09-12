@@ -12,7 +12,7 @@ I'm a third year Ph.D. student at [Paul G. Allen School of Computer Science & En
 
 I received B.Eng. in [Electronic Engineering from Tsinghua University](https://www.ee.tsinghua.edu.cn/). During my undergraduate study, I have been lucky to work with [Prof. Weibou Dou](https://www.ee.tsinghua.edu.cn/en/info/1067/1296.htm) and [Prof. Yong Li](https://www.ee.tsinghua.edu.cn/en/info/1059/1259.htm). I interned at [Li Lab](https://www.cedars-sinai.edu/research/labs/li.html) in the summer of 2018.
 
-Driven by the potential of computational methods to aid healthcare, my research interests are in the area of medical image analysis, computer vision, and machine learning.
+My research interests are in the area of medical image analysis, computer vision, and machine learning, especially developing computational tools to aid healthcare.
 
 Here is my [CV](files/Kechun_Liu_CV.pdf).
 
