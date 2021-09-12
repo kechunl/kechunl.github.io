@@ -5,12 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+Peer-Reviewed Conference Papers
+===
 
-{% include base_path %}
+1. **Liu, Kechun**, Mojgan Mokhtari, Beibin Li, Shima Nofallah, Caitlin May, Oliver Chang, Stevan Knezevich, Joann Elmore, and Linda Shapiro. "Learning Melanocytic Proliferation Segmentation in Histopathology Images From Imperfect Annotations." In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*, 2021. [PDF](https://openaccess.thecvf.com/content/CVPR2021W/CVMI/papers/Liu_Learning_Melanocytic_Proliferation_Segmentation_in_Histopathology_Images_From_Imperfect_Annotations_CVPRW_2021_paper.pdf)
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+2. Zong, Zefang, Jie Feng, **Kechun Liu**, Hongzhi Shi, and Yong Li. "DeepDPM: Dynamic population mapping via deep neural network." In *Proceedings of the AAAI Conference on Artificial Intelligence*, 2019. [PDF](/files/DeepDPM.pdf)

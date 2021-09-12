@@ -21,12 +21,12 @@ Education
 - **Ph.D. student**, Computer Science & Engineering, University of Washington, 2019-present
     <!-- - **Dissertation Topic** : "Aerial Vehicle Detection and Tracking using a Multi-modal Adaptive Sensor" -->
 - **M.S.**, Computer Science & Engineering, University of Washington, 2019-2021
-- **B.S.**, Electronic Engineering, Tsinghua University, 2015-2019
+- **B.Eng.**, Electronic Engineering, Tsinghua University, 2015-2019
     <!-- - **Thesis Topic** : "Autonomous Parallel Parking of non-holonomic Vehicles" -->
 
 Teaching Experience
 ======
-- *CSE 576 Computer Vision*, TA, 2021 Spring - 
+- *CSE 576 Computer Vision*, TA, 2021 Spring
   <!-- * **Topics** - Visual Transformers, Multimodal Machine Learning  -->
 
 <!-- Publications
