@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I'm a third year Ph.D. student at [Paul G. Allen School of Computer Science & Engineering, University of Washington](https://www.cs.washington.edu/), advised by Prof. Linda Shapiro. 
+I'm a fourth year Ph.D. student at [Paul G. Allen School of Computer Science & Engineering, University of Washington](https://www.cs.washington.edu/), advised by Prof. Linda Shapiro. 
 
 I received B.Eng. in [Electronic Engineering from Tsinghua University](https://www.ee.tsinghua.edu.cn/). During my undergraduate study, I have been lucky to work with [Prof. Weibou Dou](https://www.ee.tsinghua.edu.cn/en/info/1067/1296.htm) and [Prof. Yong Li](https://www.ee.tsinghua.edu.cn/en/info/1059/1259.htm). I interned at [Li Lab](https://www.cedars-sinai.edu/research/labs/li.html) in the summer of 2018.
 
-My research interests are in the area of medical image analysis, computer vision, and machine learning, especially developing computational tools to aid healthcare.
+My research interests are in the area of computer vision, machine learning, and medical image analisys, especially developing computational tools to aid healthcare.
 
 Here is my [CV](files/Kechun_Liu_CV.pdf).
 
@@ -23,6 +23,10 @@ Education
 - **M.S.**, Computer Science & Engineering, University of Washington, 2019-2021
 - **B.Eng.**, Electronic Engineering, Tsinghua University, 2015-2019
     <!-- - **Thesis Topic** : "Autonomous Parallel Parking of non-holonomic Vehicles" -->
+
+Academic Service
+======
+- *Reviewer*, IEEE/CVF Winter Conference on Applications of Computer Vision (WACV2023)
 
 Teaching Experience
 ======
