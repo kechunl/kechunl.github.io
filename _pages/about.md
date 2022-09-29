@@ -24,9 +24,13 @@ Education
 - **B.Eng.**, Electronic Engineering, Tsinghua University, 2015-2019
     <!-- - **Thesis Topic** : "Autonomous Parallel Parking of non-holonomic Vehicles" -->
 
+Internship
+======
+- **Research Intern**, Sensebrain Technology, 2022.6-2022.9
+
 Academic Service
 ======
-- *Reviewer*, IEEE/CVF Winter Conference on Applications of Computer Vision (WACV2023)
+- **Reviewer**, IEEE/CVF Winter Conference on Applications of Computer Vision (WACV2023)
 
 Teaching Experience
 ======
