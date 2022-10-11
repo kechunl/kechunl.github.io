@@ -16,20 +16,24 @@ My research interests are in the area of computer vision, machine learning, and 
 
 Here is my [CV](files/Kechun_Liu_CV.pdf).
 
-### Education
-======
+News & Updates
+------
+- **[2022.10]** One paper accepted at IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023
+
+Education
+------
 - **Ph.D. student**, Computer Science & Engineering, University of Washington, 2019-present
     <!-- - **Dissertation Topic** : "Aerial Vehicle Detection and Tracking using a Multi-modal Adaptive Sensor" -->
 - **M.S.**, Computer Science & Engineering, University of Washington, 2019-2021
 - **B.Eng.**, Electronic Engineering, Tsinghua University, 2015-2019
     <!-- - **Thesis Topic** : "Autonomous Parallel Parking of non-holonomic Vehicles" -->
 
-### Internship
-======
+Experience
+------
 - **Research Intern**, Sensebrain Technology, 2022.6-present
 
-### Academic Service 
-======
+Academic Service 
+------
 - **Reviewer**, IEEE/CVF Winter Conference on Applications of Computer Vision (WACV2023)
 
 <!-- Teaching Experience
