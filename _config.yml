@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Kechun Liu | 刘可淳"
 title_separator          : "-"
 name                     : &name "Kechun Liu"
-description              : &description "A third year Ph.D. student at University of Washington"
+description              : &description "A fourth year Ph.D. student at University of Washington"
 url                      : https://kechunl.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kechunl.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Kechun Liu"
   avatar           : "kc.jpg"
-  bio              : "A third year Ph.D student in Computer Science & Engineering, University of Washington, advised by Linda Shapiro"
+  bio              : "A fourth year Ph.D student in Computer Science & Engineering, University of Washington, advised by Linda Shapiro"
   location         : "Seattle, WA"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
