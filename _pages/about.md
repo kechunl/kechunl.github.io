@@ -12,7 +12,7 @@ I'm a fourth year Ph.D. student at [Paul G. Allen School of Computer Science & E
 
 I received B.Eng. in [Electronic Engineering from Tsinghua University](https://www.ee.tsinghua.edu.cn/). During my undergraduate study, I have been lucky to work with [Prof. Weibou Dou](https://www.ee.tsinghua.edu.cn/en/info/1067/1296.htm) and [Prof. Yong Li](https://www.ee.tsinghua.edu.cn/en/info/1059/1259.htm). I interned at [Li Lab](https://www.cedars-sinai.edu/research/labs/li.html) in the summer of 2018.
 
-My research interests are in the area of computer vision, machine learning, and medical image analysis, especially developing computational tools to aid healthcare.
+My research interests are in the area of generative models, representation learning, real-world computer vision tasks, and medical image analysis.
 
 Here is my [CV](files/Kechun_Liu_CV.pdf).
 
@@ -30,7 +30,7 @@ Education
 
 Experience
 ------
-- **Research Intern**, Sensebrain Technology, 2022.6-present
+- **Research Intern**, Sensebrain Technology, 2022.6-2022.12
 
 Academic Service 
 ------
