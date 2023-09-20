@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>AdaCode</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.jpeg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+
+  <link rel="stylesheet" href="static/css/dics.original.css">
+  <script src="static/js/dics.original.js"></script>
+
+  <script>
+
+    document.addEventListener('DOMContentLoaded', domReady);
+
+    function domReady() {
+        new Dics({
+            container: document.querySelectorAll('.b-dics')[0],
+            textPosition: 'top'
+        });
+
+        new Dics({
+            container: document.querySelectorAll('.b-dics')[1],
+            hideTexts: true,
+            textPosition: 'center'
+        });
+
+        new Dics({
+            container: document.querySelectorAll('.b-dics')[2]
+        });
+
+        new Dics({
+            container: document.querySelectorAll('.b-dics')[3],
+            linesOrientation: 'vertical',
+            textPosition: 'left',
+            arrayBackgroundColorText: ['#000000', '#FFFFFF'],
+            arrayColorText: ['#FFFFFF', '#000000'],
+            linesColor: 'rgb(0,0,0)'
+        });
+
+        new Dics({
+            container: document.querySelectorAll('.b-dics')[4],
+            linesOrientation: 'vertical',
+            textPosition: 'right'
+        });
+
+        new Dics({
+            container: document.querySelectorAll('.b-dics')[5],
+            textPosition: 'bottom'
+        });
+
+        new Dics({
+            container: document.querySelectorAll('.b-dics')[6],
+            filters: ['blur(3px)', 'grayscale(1)', 'sepia(1)', 'saturate(3)']
+        });
+        new Dics({
+            container: document.querySelectorAll('.b-dics')[7],
+            rotate: '45deg'
+        });
+
+    }
+  </script>
+
+<script type="text/javascript">
+  var x = 0;
+  var images = [
+    ["static/images/reconstruction/input_1.png",
+    "static/images/reconstruction/vqgan_1.png",
+    "static/images/reconstruction/vqgan_aux_1.png",
+    "static/images/reconstruction/AdaCode_1.png",
+    "Image Reconstruction",
+    ["Input", "VQGAN", "VQGAN-aux", "AdaCode"]], 
+    ["static/images/reconstruction/input_2.png",
+    "static/images/reconstruction/vqgan_2.png",
+    "static/images/reconstruction/vqgan_aux_2.png",
+    "static/images/reconstruction/AdaCode_2.png",
+    "Image Reconstruction",
+    ["Input", "VQGAN", "VQGAN-aux", "AdaCode"]],
+    ["static/images/reconstruction/input_3.png",
+    "static/images/reconstruction/vqgan_3.png",
+    "static/images/reconstruction/vqgan_aux_3.png",
+    "static/images/reconstruction/AdaCode_3.png",
+    "Image Reconstruction",
+    ["Input", "VQGAN", "VQGAN-aux", "AdaCode"]],
+    ["static/images/sr/dog.png",
+    "static/images/sr/dog_realesrgan_x4.png",
+    "static/images/sr/dog_femasr_x4.png",
+    "static/images/sr/dog_adacode_x4.png",
+    "Super Resolution (4x)",
+    ["Input", "RealESRGAN", "FeMaSR", "AdaCode"]],
+    ["static/images/sr/zebra.png",
+    "static/images/sr/zebra_realesrgan_x4.png",
+    "static/images/sr/zebra_femasr_x4.png",
+    "static/images/sr/zebra_adacode_x4.png",
+    "Super Resolution (4x)",
+    ["Input", "RealESRGAN", "FeMaSR", "AdaCode"]],
+    ["static/images/inpaint/input_1.png",
+    "static/images/inpaint/gpen_1.png",
+    "static/images/inpaint/femasr_1.png",
+    "static/images/inpaint/adacode_1.png",
+    "Inpainting",
+    ["Input", "GPEN", "FeMaSR", "AdaCode"]],
+    ["static/images/inpaint/input_2.png",
+    "static/images/inpaint/gpen_2.png",
+    "static/images/inpaint/femasr_2.png",
+    "static/images/inpaint/adacode_2.png",
+    "Inpainting",
+    ["Input", "GPEN", "FeMaSR", "AdaCode"]],
+  ];
+  function ChangeImage() {
+    x = Math.floor(Math.random() * images.length);
+            document.getElementById("img1").src = images[x];
+  }
+  function displayNextImages() {
+    x = (x === images.length - 1) ? 0 : x + 1;
+    document.getElementById("img1").src = images[x][0];
+    document.getElementById("img1").alt = images[x][5][0];
+    $(".b-dics__image-container #img1")[0].parentElement.children[0].textContent = images[x][5][0];
+    document.getElementById("img2").src = images[x][1];
+    document.getElementById("img2").alt = images[x][5][1];
+    $(".b-dics__image-container #img2")[0].parentElement.children[0].textContent = images[x][5][1];
+    document.getElementById("img3").src = images[x][2];
+    document.getElementById("img3").alt = images[x][5][2];
+    $(".b-dics__image-container #img3")[0].parentElement.children[0].textContent = images[x][5][2];
+    document.getElementById("img4").src = images[x][3];
+    document.getElementById("img4").alt = images[x][5][3];
+    $(".b-dics__image-container #img4")[0].parentElement.children[0].textContent = images[x][5][3];
+    document.getElementById("title").textContent = images[x][4];
+      }
+
+  function displayPreviousImages() {
+    x = (x <= 0) ? images.length - 1 : x - 1;
+    document.getElementById("img1").src = images[x][0];
+    document.getElementById("img1").alt = images[x][5][0];
+    $(".b-dics__image-container #img1")[0].parentElement.children[0].textContent = images[x][5][0];
+    document.getElementById("img2").src = images[x][1];
+    document.getElementById("img2").alt = images[x][5][1];
+    $(".b-dics__image-container #img2")[0].parentElement.children[0].textContent = images[x][5][1];
+    document.getElementById("img3").src = images[x][2];
+    document.getElementById("img3").alt = images[x][5][2];
+    $(".b-dics__image-container #img3")[0].parentElement.children[0].textContent = images[x][5][2];
+    document.getElementById("img4").src = images[x][3];
+    document.getElementById("img4").alt = images[x][5][3];
+    $(".b-dics__image-container #img4")[0].parentElement.children[0].textContent = images[x][5][3];
+    document.getElementById("title").textContent = images[x][4];
+  }
+  function ChangeImages() {
+    x = Math.floor(Math.random() * images.length);
+    document.getElementById("img1").src = images[x][0];
+    document.getElementById("img1").alt = images[x][5][0];
+    $(".b-dics__image-container #img1")[0].parentElement.children[0].textContent = images[x][5][0];
+    document.getElementById("img2").src = images[x][1];
+    document.getElementById("img2").alt = images[x][5][1];
+    $(".b-dics__image-container #img2")[0].parentElement.children[0].textContent = images[x][5][1];
+    document.getElementById("img3").src = images[x][2];
+    document.getElementById("img3").alt = images[x][5][2];
+    $(".b-dics__image-container #img3")[0].parentElement.children[0].textContent = images[x][5][2];
+    document.getElementById("img4").src = images[x][3];
+    document.getElementById("img4").alt = images[x][5][3];
+    $(".b-dics__image-container #img4")[0].parentElement.children[0].textContent = images[x][5][3];
+    document.getElementById("title").textContent = images[x][4];
+  }
+</script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Learning Image-Adaptive Codebooks for Class-Agnostic Image Restoration</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://kechunl.github.io/" target="_blank">Kechun Liu</a><sup>1,3</sup>,</span>
+                <span class="author-block">
+                  Yitong Jiang<sup>2</sup>,</span>
+                <span class="author-block">
+                  Inchang Choi<sup>3</sup>,</span>
+                <span class="author-block">
+                    <a href="https://www.gujinwei.org/" target="_blank">Jinwei Gu</a><sup>2</sup>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>University of Washington, <sup>2</sup>CUHK, <sup>3</sup>SenseBrain Technology<br>ICCV, 2023</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2306.06513.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/kechunl/AdaCode" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2306.06513" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser image-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/teaser.jpeg" alt="teaser"/>
+      <h2 class="subtitle has-text-centered">
+        <strong>TL;DR:</strong>
+        AdaCode learns image-adaptive codebooks for class-agnostic image reconstruction and restoration. Instead of learning a single codebook regardless of image content, we learn a set of basis codebooks and adatively combine them to form a more flexible and expressive representation.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="font-size: x-large;">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Recent work on discrete generative priors, in the form of codebooks, has shown exciting performance for image reconstruction and restoration, as the discrete prior space spanned by the codebooks increases the robustness against diverse image degradations. Nevertheless, these methods require separate training of codebooks for different image categories, which limits their use to specific image categories only (e.g. face, architecture, etc.), and fail to handle arbitrary natural images. In this paper, we propose AdaCode for learning image-adaptive codebooks for class-agnostic image restoration. Instead of learning a single codebook for each image category, we learn a set of basis codebooks. Given an input image, AdaCode learns a weight map with and computes a weighted combination of these basis codebooks for adaptive image restoration. Intuitively, AdaCode is a more flexible and expressive discrete generative prior than previous work. Experimental results demonstrate that AdaCode achieves state-of-the-art performance on image reconstruction and restoration tasks, including image super-resolution and inpainting.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+      <div class="container" style="width: 800px;">
+        <h2 class="title is-8 is-centered" style="text-align: center; font-size: x-large;">Results</h2>
+        <div class="polaroid" style="padding-bottom: 40px;">
+            <div class="b-dics" style="width: 800px;">
+              <img id="img1" src="static/images/reconstruction/input_1.png" alt="GT">
+              <img id="img2" src="static/images/reconstruction/vqgan_1.png" alt="VQGAN">
+              <img id="img3" src="static/images/reconstruction/vqgan_aux_1.png" alt="VQGAN-aux">
+              <img id="img4" src="static/images/reconstruction/adacode_1.png" alt="AdaCode">
+            </div>
+          <div style="padding: 0px 0px;">
+            <div class="pos_left">
+            <button type="button" class="button button1" onclick="displayPreviousImages()">&#10094 Previous</button>
+            </div>
+            <div class="pos_middle" style="top: 25%; margin: 0; position: relative; -ms-transform: translateY(25%); transform: translateY(25%);">
+              <h2 id="title" class="subtitle has-text-centered">
+              Image Reconstruction
+              </h2>
+            </div>
+            <div class="pos_right">
+            <button type="button" class="button button1" onclick="displayNextImages()">Next &#10095</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+<!-- End image carousel -->
+
+<!-- Method Overview -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3" style="font-size: x-large;">Method Overview</h2>
+        <div class="content has-text-justified">
+          <img src="static/images/model.png" alt="model"/>
+          <p>
+            The training of AdaCode incorporates three stages: <br>
+            <strong>1. Codebook Pretraining</strong>; <strong>2. Representation Learning</strong>; <strong>3. Restoration via AdaCode</strong>.
+            <br><br>
+            In the first stage, we divide our HQ dataset into multiple semantic subsets and train a class-specific VQGAN on each subset. 
+            In the second stage, using the fixed pretrained class-specific codebooks as bases, we leverage a transformer block to generate weight maps and train the AdaCode through the self-reconstruction task. 
+            In the last stage, we employ the AdaCode with fixed codebooks and fixed image decoder to address downstream restoration tasks, e.g. Super-Resolution and Image Inpainting.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End method overview -->
+
+
+<!-- Youtube video -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End youtube video -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-8" style="font-size: x-large; text-align: center;">More results</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/more/recon.jpg" alt="reconstruction"/>
+        <h2 class="subtitle has-text-centered">
+          Reconstruction
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/more/sr_x2.jpg" alt="sr_x2"/>
+        <h2 class="subtitle has-text-centered">
+          Super-Resolution (2x)
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/more/sr_x4.jpeg" alt="sr_x4"/>
+        <h2 class="subtitle has-text-centered">
+          Super-Resolution (4x)
+       </h2>
+     </div>
+     <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/more/inpaint.jpg" alt="inpaint"/>
+      <h2 class="subtitle has-text-centered">
+        Inpainting
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+
+
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/adacode.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title" style="font-size: x-large;">BibTeX</h2>
+    <pre><code>@article{liu2023learning,
+      title={Learning Image-Adaptive Codebooks for Class-Agnostic Image Restoration},
+      author={Liu, Kechun and Jiang, Yitong and Choi, Inchang and Gu, Jinwei},
+      journal={arXiv preprint arXiv:2306.06513},
+      year={2023}}</code></pre>
+  </div>
+</section>
+<!--End BibTex citation -->
+
+<section class="section" id="contact">
+  <div class="container is-max-desktop content">
+    <h2 class="title" style="font-size: x-large;">Contact</h2>
+    If you have any question, please contact Kechun Liu at <i>kechun@cs.washington.edu</i>
+  </div>
+</section>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>

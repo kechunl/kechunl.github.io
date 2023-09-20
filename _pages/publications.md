@@ -7,9 +7,9 @@ author_profile: true
 
 <!-- Peer-Reviewed Conference Papers
 === -->
-1. **Liu, Kechun**, Yitong Jiang, Inchang Choi, Jinwei Gu. "Learning Image-Adaptive Codebooks for Class-Agnostic Image Restoration." ICCV 2023(To appear).[ArXiv](https://arxiv.org/abs/2306.06513)
+1. **Liu, Kechun**, Yitong Jiang, Inchang Choi, Jinwei Gu. "Learning Image-Adaptive Codebooks for Class-Agnostic Image Restoration." ICCV 2023(To appear).[ArXiv](https://arxiv.org/abs/2306.06513) [Website](https://kechunl.github.io/AdaCode/index.html) [Code](https://github.com/kechunl/AdaCode)
 
-2. **Liu, Kechun**, et al. "VSGD-Net: Virtual Staining Guided Melanocyte Detection on Histopathological Images." Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision. 2023. [PDF](https://openaccess.thecvf.com/content/WACV2023/html/Liu_VSGD-Net_Virtual_Staining_Guided_Melanocyte_Detection_on_Histopathological_Images_WACV_2023_paper.html)
+2. **Liu, Kechun**, et al. "VSGD-Net: Virtual Staining Guided Melanocyte Detection on Histopathological Images." Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision. 2023. [PDF](https://openaccess.thecvf.com/content/WACV2023/html/Liu_VSGD-Net_Virtual_Staining_Guided_Melanocyte_Detection_on_Histopathological_Images_WACV_2023_paper.html) [Code](https://github.com/kechunl/VSGD-Net)
 
 3. Nofallah, Shima, Linda G. Shapiro, Wenjun Wu, **Kechun Liu**, Fatemeh Ghezloo, and Joann Elmore. "Automated Analysis of Whole Slide Digital Skin Biopsy Images." Frontiers in Artificial Intelligence: 209.
 
