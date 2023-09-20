@@ -18,7 +18,7 @@ Here is my [CV](files/Kechun_Liu_CV.pdf).
 
 News & Updates
 ------
-- **[2023.7]** One paper accepted at 2023 International Conference on Computer Vision (ICCV)
+- **[2023.7]** One paper accepted at 2023 International Conference on Computer Vision (ICCV) [Website](https://kechunl.github.io/AdaCode) [Paper](https://arxiv.org/abs/2306.06513)
 
 - **[2022.10]** One paper accepted at IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023
 
