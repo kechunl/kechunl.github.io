@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fourth year Ph.D. student at [Paul G. Allen School of Computer Science & Engineering, University of Washington](https://www.cs.washington.edu/), advised by Prof. Linda Shapiro. 
+I'm a fifth year Ph.D. student at [Paul G. Allen School of Computer Science & Engineering, University of Washington](https://www.cs.washington.edu/), advised by Prof. Linda Shapiro. 
 
 I received B.Eng. in [Electronic Engineering from Tsinghua University](https://www.ee.tsinghua.edu.cn/). During my undergraduate study, I have been lucky to work with [Prof. Weibou Dou](https://www.ee.tsinghua.edu.cn/en/info/1067/1296.htm) and [Prof. Yong Li](https://www.ee.tsinghua.edu.cn/en/info/1059/1259.htm). I interned at [Li Lab](https://www.cedars-sinai.edu/research/labs/li.html) in the summer of 2018.
 
