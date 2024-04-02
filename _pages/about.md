@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fifth year Ph.D. student at [Paul G. Allen School of Computer Science & Engineering, University of Washington](https://www.cs.washington.edu/), advised by Prof. Linda Shapiro. 
+I'm a Ph.D candidate at [Paul G. Allen School of Computer Science & Engineering, University of Washington](https://www.cs.washington.edu/), advised by Prof. Linda Shapiro. 
 
 I received B.Eng. in [Electronic Engineering from Tsinghua University](https://www.ee.tsinghua.edu.cn/). During my undergraduate study, I have been lucky to work with [Prof. Weibou Dou](https://www.ee.tsinghua.edu.cn/en/info/1067/1296.htm) and [Prof. Yong Li](https://www.ee.tsinghua.edu.cn/en/info/1059/1259.htm). I interned at [Li Lab](https://www.cedars-sinai.edu/research/labs/li.html) in the summer of 2018.
 
@@ -18,6 +18,10 @@ Here is my [CV](files/Kechun_Liu_CV.pdf).
 
 News & Updates
 ------
+- **[2024.3]** I passed my Ph.D. General Exam and achieved Ph.D. candidacy status! 
+
+- **[2024.3]** One paper submitted to MICCAI 2024 (arXiv coming soon)
+
 - **[2023.7]** One paper accepted at 2023 International Conference on Computer Vision (ICCV) [Website](https://kechunl.github.io/AdaCode) [Paper](https://arxiv.org/abs/2306.06513)
 
 - **[2022.10]** One paper accepted at IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023
@@ -38,6 +42,7 @@ Experience
 
 Academic Service 
 ------
+- **Reviewer**, 27th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI2024)
 - **Reviewer**, IEEE/CVF Winter Conference on Applications of Computer Vision (WACV2023)
 
 <!-- Teaching Experience
