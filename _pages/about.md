@@ -7,33 +7,31 @@ redirect_from:
   - /about/
   - /about.html
 ---
+I'm a Ph.D candidate in Computer Science & Engineering at University of Washington, advised by [Prof. Linda Shapiro](https://scholar.google.com/citations?user=nBwaXUsAAAAJ&hl=en). My research focuses on tackling real-world clinical problems with computer vision and machine learning techniques.
 
-I'm a Ph.D candidate at [Paul G. Allen School of Computer Science & Engineering, University of Washington](https://www.cs.washington.edu/), advised by Prof. Linda Shapiro. 
+Previously I joined Rivian and Sensebrain Technology as a research intern. Before coming to UW, I received B.Eng. in Electronic Engineering from Tsinghua University. I worked as an undergrad research assistant with [Prof. Weibou Dou](http://web.ee.tsinghua.edu.cn/douweibei/zh_CN/index.htm), [Prof. Yong Li](https://fi.ee.tsinghua.edu.cn/~liyong/), and [Prof. Debiao Li](https://www.cedars-sinai.edu/research-education/research/labs/li.html).
 
-I received B.Eng. in [Electronic Engineering from Tsinghua University](https://www.ee.tsinghua.edu.cn/). During my undergraduate study, I have been lucky to work with [Prof. Weibou Dou](https://www.ee.tsinghua.edu.cn/en/info/1067/1296.htm) and [Prof. Yong Li](https://www.ee.tsinghua.edu.cn/en/info/1059/1259.htm). I interned at [Li Lab](https://www.cedars-sinai.edu/research/labs/li.html) in the summer of 2018.
+**I'm actively seeking full-time ml-related roles. Please feel free to reach out if you think I'm a good fit!**
 
-My research interests are in the area of generative models, representation learning, real-world computer vision tasks, and medical image analysis.
+Here is my [CV](files/Kechun_Liu_CV_202407.pdf).
 
-Here is my [CV](files/Kechun_Liu_CV.pdf).
-
-News & Updates
-------
-- **[2024.3]** I passed my Ph.D. General Exam and achieved Ph.D. candidacy status! 
-
-- **[2024.3]** One paper submitted to MICCAI 2024 (arXiv coming soon)
-
-- **[2023.7]** One paper accepted at 2023 International Conference on Computer Vision (ICCV) [Website](https://kechunl.github.io/AdaCode) [Paper](https://arxiv.org/abs/2306.06513)
-
-- **[2022.10]** One paper accepted at IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023
 
 Education
 ------
-- **Ph.D. student**, Computer Science & Engineering, University of Washington, 2019-present
+- **Ph.D.**, Computer Science & Engineering, University of Washington, 2019-2024 (Expected)
     <!-- - **Dissertation Topic** : "Aerial Vehicle Detection and Tracking using a Multi-modal Adaptive Sensor" -->
 - **M.S.**, Computer Science & Engineering, University of Washington, 2019-2021
 - **B.Eng.**, Electronic Engineering, Tsinghua University, 2015-2019
     <!-- - **Thesis Topic** : "Autonomous Parallel Parking of non-holonomic Vehicles" -->
 
+News & Updates
+------
+- **[2024.3]** One paper accepted by MICCAI 2024 [Arxiv](https://arxiv.org/abs/2404.10894)
+- **[2024.3]** I passed my Ph.D. General Exam and achieved Ph.D. candidacy status! 
+- **[2023.7]** One paper accepted at 2023 International Conference on Computer Vision (ICCV) [Website](https://kechunl.github.io/AdaCode) [Paper](https://arxiv.org/abs/2306.06513)
+- **[2022.10]** One paper accepted at IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023
+
+<!-- 
 Experience
 ------
 - **Software Engineer Intern**, Rivian, 2023.6-2023.9 
@@ -44,7 +42,7 @@ Academic Service
 ------
 - **Reviewer**, 27th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI2024)
 - **Reviewer**, IEEE/CVF Winter Conference on Applications of Computer Vision (WACV2023)
-
+ -->
 <!-- Teaching Experience
 ======
 - *CSE 576 Computer Vision*, TA, 2021 Spring -->

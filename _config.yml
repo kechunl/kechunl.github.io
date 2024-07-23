@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Kechun Liu"
   avatar           : "kc.jpg"
-  bio              : "Ph.D candidate in Computer Science & Engineering, University of Washington, advised by Prof. Linda Shapiro"
+  bio              : "Ph.D candidate in Computer Science & Engineering, University of Washington"
   location         : "Seattle, WA"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -99,7 +99,7 @@ author:
   github           : "kechunl"
   google_plus      :
   keybase          :
-  instagram        : "kechunliu13/"
+  instagram        : 
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "kechun-liu-4227a21a0/"
