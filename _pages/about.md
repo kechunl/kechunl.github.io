@@ -11,8 +11,6 @@ I'm a Ph.D candidate in Computer Science & Engineering at University of Washingt
 
 Previously I joined Rivian and Sensebrain Technology as a research intern. Before coming to UW, I received B.Eng. in Electronic Engineering from Tsinghua University. I worked as an undergrad research assistant with [Prof. Weibou Dou](http://web.ee.tsinghua.edu.cn/douweibei/zh_CN/index.htm), [Prof. Yong Li](https://fi.ee.tsinghua.edu.cn/~liyong/), and [Prof. Debiao Li](https://www.cedars-sinai.edu/research-education/research/labs/li.html).
 
-**I'm actively seeking full-time ml-related roles. Please feel free to reach out if you think I'm a good fit!**
-
 Here is my [CV](files/Kechun_Liu_CV_202407.pdf).
 
 
